@@ -1,0 +1,30 @@
+{
+    "name": "ripon/scratch-card",
+    "description": "This is a virtual scratch card",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ripon Shikder",
+            "email": "coderripon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ripon\\ScratchCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ripon\\ScratchCard\\ScratchCardServiceProvider"
+            ],
+            "aliases": {
+                "ScratchCard": "Ripon\\ScratchCard\\ScratchCard"
+            }
+        }
+    }
+
+}
