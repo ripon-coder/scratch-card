@@ -14,7 +14,7 @@ class ScratchController extends Controller
             if($scratch->status ==1){
                 ScratchCard::ID($scratch->id)->StatusDeactive();
                 return view('scratch::scratchshow',compact("scratch"));
-            }elseif($scratch->status ==0){
+            }else{
                 return view('scratch::scratchshow',compact("scratch"));
             }
             

@@ -83,6 +83,12 @@ class ScratchCardClass
         $b->status = 1;
         $b->save();
      }
+     public function giftDone(){
+        $a =  $this->dataStore;
+        $b = ScratchModel::findOrFail($a->id);
+        $b->status = 3;
+        $b->save();
+     }
 
 }
 
