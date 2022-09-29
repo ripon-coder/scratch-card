@@ -77,7 +77,7 @@ class ScratchCardClass
        $b->status = 0;
        $b->save();
     }
-    public function StatusAeactive(){
+    public function StatusActive(){
         $a =  $this->dataStore;
         $b = ScratchModel::findOrFail($a->id);
         $b->status = 1;
