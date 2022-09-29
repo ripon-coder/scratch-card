@@ -1,4 +1,8 @@
 # Scratch Card Laravel Package
+
+[![Issues](https://img.shields.io/github/issues/ripon-coder/scratch-card)](https://github.com/ripon-coder/scratch-card/issues)
+[![Stars](https://img.shields.io/github/stars/ripon-coder/scratch-card)](https://github.com/ripon-coder/scratch-card/stargazers)
+
 ## Installation
 ```sh
 composer require riponcoder/scratch-card
