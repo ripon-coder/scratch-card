@@ -19,7 +19,7 @@ class ScratchCardClass
             $scratch->name = $data[0];
             $scratch->mobile = $data[1];
             $scratch->item = $item->id;
-            $scratch->status = $data[3];
+            $scratch->status = $data[2];
             $scratch->save();
         }
     }
@@ -32,7 +32,7 @@ class ScratchCardClass
             $scratch->name = $data[0];
             $scratch->mobile = $data[1];
             $scratch->item = $item->id;
-            $scratch->status = $data[3];
+            $scratch->status = $data[2];
             $scratch->save();
         }
     }
